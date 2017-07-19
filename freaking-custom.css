@@ -9,4 +9,37 @@
 /*****
 * Remove margin in all browsers
 *****/
-body{margin: 0;}
+body{
+  margin: 0;
+}
+
+/*****
+* Correct display property for IE < 9
+*****/
+article,
+aside,
+footer,
+header,
+nav,
+section,
+figcaption,
+figure,
+main {
+  display: block;
+}
+
+/*****
+* Prevent duplicate application of bolder
+*****/
+b,
+strong {
+  font-weight: inherit;
+}
+
+/*****
+* Add correct font weight
+*****/
+b,
+strong {
+  font-weight: bolder;
+}
